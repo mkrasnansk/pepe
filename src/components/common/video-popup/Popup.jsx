@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 
 const Popup = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="7e90gBu4pas"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       {/* End popup component */}
 
       <div

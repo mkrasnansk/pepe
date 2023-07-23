@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import heroAvatar from "../../../../../assets/images/media/img_40.jpg";
 
 const TextBlockOne = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="7e90gBu4pas"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       {/* End ModalVideo */}
 
       <div className="row">

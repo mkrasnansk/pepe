@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import img1 from "../../assets/images/assets/ils_02.png";
 
@@ -7,13 +7,13 @@ const TextBlockVideo = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="7e90gBu4pas"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       {/* End ModalVideo */}
       <div className="row align-items-center">
         <div className="col-xxl-5 col-lg-6 order-lg-last" data-aos="fade-left">

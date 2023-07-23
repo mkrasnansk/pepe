@@ -13,7 +13,7 @@ import Hero from "../../components/startup-agency/Hero";
 import Team from "../../components/startup-agency/Team";
 import TextBlock from "../../components/startup-agency/TextBlock";
 import TextBlockList from "../../components/startup-agency/TextBlockList";
-import AccordionOne from "../../components/service-provider/AccordionOne";
+// import AccordionOne from "../../components/service-provider/AccordionOne";
 
 const StartupAgency = () => {
    return (

@@ -1,10 +1,10 @@
 import React from "react";
 
 const MobileMenuContent = () => {
-   const handleSubmit = (event) => {
-      console.log("search: ", event.target.value);
-      event.preventDefault();
-   };
+   // const handleSubmit = (event) => {
+   //    console.log("search: ", event.target.value);
+   //    event.preventDefault();
+   // };
 
    return (
       <div>

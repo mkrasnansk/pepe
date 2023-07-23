@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Slider from "react-slick";
 import img1 from "../../assets/images/media/img_19.jpg";
 import img2 from "../../assets/images/media/img_20.jpg";
@@ -42,13 +42,13 @@ const HeroSlider = () => {
   ];
   return (
     <>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="7e90gBu4pas"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <Slider {...settings} arrows={false}>
         {sliderContent.map((item) => (
           <div className="item" key={item.id}>

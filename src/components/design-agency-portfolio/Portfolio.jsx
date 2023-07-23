@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import img1 from "../../assets/images/gallery/img_47.jpg";
 import img2 from "../../assets/images/gallery/img_53.jpg";
 import img3 from "../../assets/images/gallery/img_50.jpg";
@@ -51,13 +51,13 @@ const Portfolio = () => {
     <>
       {videoItem.map((item) => (
         <div key={item.id}>
-          <ModalVideo
+          {/* <ModalVideo
             channel="youtube"
             autoplay
             isOpen={isOpen}
             videoId={item.videoIdCode}
             onClose={() => setOpen(false)}
-          />
+          /> */}
 
           <div className="isotop-item item-xl">
             <div className="gallery-item mb-55 lg-mb-30">

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
@@ -147,13 +147,13 @@ const Portfolio4 = () => {
           <TabPanel key={item.id}>
             {item.videoItem.map((item) => (
               <div key={item.id}>
-                <ModalVideo
+                {/* <ModalVideo
                   channel="youtube"
                   autoplay
                   isOpen={isOpen}
                   videoId={item.videoIdCode}
                   onClose={() => setOpen(false)}
-                />
+                /> */}
 
                 <div className="isotop-item item-xl">
                   <div className="gallery-item mb-55 lg-mb-30">
